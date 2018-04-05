@@ -9,5 +9,17 @@
  * @author LENOVO 320
  */
 public class Waterpump {
+    String nama;
+    String pabrik;
+    String warna;
+    double harga;
+    double daya;
     
+    void cetakInfo(){
+        System.out.println("Nama :"+nama);
+        System.out.println("pabrik :"+pabrik);
+        System.out.println("warna :"+warna);
+        System.out.println("harga :"+harga);
+        System.out.println("daya :"+daya);
+    }   
 }
