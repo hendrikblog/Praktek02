@@ -10,5 +10,10 @@ package praktek02;
  * @author LENOVO 320
  */
 public class WaterpumpAksi {
+    public static void main(String[] args) {
+        Waterpump Harry = new Waterpump();
+        
+        
+    }
     
 }
