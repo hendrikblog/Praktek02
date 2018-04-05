@@ -13,7 +13,13 @@ public class WaterpumpAksi {
     public static void main(String[] args) {
         Waterpump Harry = new Waterpump();
         
+        Harry.nama="Harry nasional";
+        Harry.warna="biru";
+        Harry.pabrik="china";
+        Harry.harga=200;
+        Harry.daya=220;
         
+        Harry.cetakInfo();
     }
     
 }
