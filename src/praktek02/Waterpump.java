@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package praktek02;
 
 /**
  *
  * @author LENOVO 320
  */
-public class Waterpump {
+class Waterpump {
     String Nama;
     String pabrik;
     String warna;
@@ -19,6 +20,5 @@ public class Waterpump {
         System.out.println("pabrik :"+pabrik);
         System.out.println("warna :"+warna);
         System.out.println("harga :"+harga);
-       
-    }   
+    }
 }

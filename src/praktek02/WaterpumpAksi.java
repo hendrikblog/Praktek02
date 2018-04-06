@@ -11,15 +11,16 @@ package praktek02;
  */
 public class WaterpumpAksi {
     public static void main(String[] args) {
-        Waterpump Harry = new Waterpump();
+        Waterpump nasional = new Waterpump();
         
-        Harry.nama="Harry nasional";
-        Harry.warna="biru";
-        Harry.pabrik="china";
-        Harry.harga=200;
-        Harry.daya=220;
         
-        Harry.cetakInfo();
+       nasional.Nama="nasional Waterpump";
+       nasional.pabrik="china";
+       nasional.warna="biru";
+       nasional.harga= 200.000;
+       
+       nasional.cetakInfo();
+       
     }
     
 }
